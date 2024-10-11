@@ -11,7 +11,7 @@ void game() {
         printf("Guess the winning number (%d-%d) :\n", min, max) ;
         scanf("%d", &guess) ;
 
-         //ตรวจสอบเลขที่ทายว่าถูกหรือไม่
+        //ตรวจสอบเลขที่ทายว่าถูกหรือไม่
         if (guess == target) { 
             printf("That is correct! The winning number is %d\n", target) ;
             printf("Score this game : %d\n", score) ;
